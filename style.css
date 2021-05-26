@@ -1,0 +1,100 @@
+body {
+  font-family: 'Grandstander', cursive;
+  background-color: #bee3db;
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  width: 940px;
+}
+
+.card {
+  background-color: #3a0ca3;
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px grey;
+  padding: 5px;
+  margin: 7px;
+}
+
+h1 {
+  color: #f72585;
+}
+
+p {
+  color: #4cc9f0;
+}
+
+a {
+  color: #f72585;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+h2 {
+  color: #4895ef;
+}
+
+a:hover {
+  color: #b5179e;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+li {
+  display: inline;
+  list-style: none;
+  padding: 0px 20px;
+  text-align: center;
+  font-size: 25px;
+  }
+
+.big-link {
+  font-size: 30px;
+}
+
+.btn-pink {
+background-color: #f72585;
+color: #4895ef;
+padding: 7px 10px;
+border-radius: 4px;
+margin: 10px auto;
+display: block;
+width: 100px;
+}
+
+.btn-pink:hover {
+background-color: #b5179e;
+color: #f72585;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+  .img-big {
+    width: 250px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  .img-big {
+    width: 150px;
+  }
+}
+
+ul {
+  padding-left: 0;
+}
